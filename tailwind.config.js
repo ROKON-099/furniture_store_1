@@ -1,5 +1,6 @@
 module.exports = {
   content: [
+    "./*.html",          // ✅ add this
     "./*.php",
     "./**/*.php",
     "./template-parts/**/*.php",
@@ -10,7 +11,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  safelist: [
-    
-  ],
 }
